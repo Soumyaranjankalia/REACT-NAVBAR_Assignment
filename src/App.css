@@ -1,7 +1,30 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
 }
-
+.link{
+  text-align: center;
+ display: flex;
+ justify-content: space-around;
+ gap: 65px;
+ color: white;
+}
+.logo{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+button{
+  border-radius: 30px;
+  width: 100px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: darkcyan;
+  color: white;
+  border: 0;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
